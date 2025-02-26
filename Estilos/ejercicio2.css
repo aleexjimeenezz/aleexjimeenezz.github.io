@@ -1,0 +1,69 @@
+/**** EN ESTE CSS, TODA PROPIEDAD QUE NO CONOZCAIS Y NO VENGA INDICADA, ES IGUAL QUE EL NOMBRE DE LA CLASE *****/
+/* Todos los elementos visibles de la página. (font-family: Verdana, Geneva, Tahoma, sans-serif;)*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Todas las cabeceras desde 1 hasta 6 color=#1a4ed5*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1a4ed5
+}
+
+/* Todos los párrafos (<p>) ¡¡¡¡HIJOS DIRECTOS!!!! DE body deben tener un color de texto verde (color: green). Utiliza selectores adyacentes. */
+p {
+    color: green;
+}
+
+/* Los párrafos con la clase text-indent deben tener un desplazamiento de la primera línea de 30px. */
+p.text-indent {
+    text-indent: 30px;
+}
+
+/* Los párrafos con la clase text-align deben alinear el texto a la derecha. */
+p.text-align {
+    text-align: right;
+}
+
+/* Los párrafos con la clase text-decoration deben tener un efecto de subrayado. */
+p.text-decoration {
+    text-decoration: underline;
+}
+
+/* Los párrafos con la clase letter-spacing deben tener un espacio entre caracteres de 3px. */
+p.letter-spacing {
+    letter-spacing: 3px;
+}
+
+/* Los párrafos con la clase word-spacing deben tener un espacio entre palabras de 10px. */
+p.word-spacing {
+    word-spacing: 10px;
+}
+
+/* Los párrafos con la clase text-transform deben transformar el texto a mayúsculas (uppercase). */
+p.text-transform {
+    text-transform: uppercase;
+}
+
+/* Los párrafos con la clase line-height deben tener un espacio entre líneas de 70px. */
+p.line-height {
+    line-height: 70px;
+}
+
+/* Las celdas (<td>) de la tabla deben tener una altura de 100px y un borde de 1px sólido de color gris (height: 100px; border: 1px solid grey). */
+td {
+    height: 100px;
+    border: 1px solid grey
+}
+
+/* Las celdas de clase a, b, y c deben alinearse verticalmente de acuerdo a su clase (vertical-align: top, vertical-align: middle, vertical-align: bottom respectivamente). */
+td.a {
+    vertical-align: top;
+}
+
+td.b {
+    vertical-align: middle;
+}
+td.c {
+    vertical-align: bottom;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d19e5c;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2.main  {
+    color: #336699;
+}
+
+a{
+    text-decoration: none;
+    color: #CC3300;
+}
+
+#lista ul{
+    list-style-type: square;
+}
+
+ul.destacado {
+    font-weight: bold;
+}
+
+button {
+    background-color: #1a4ed5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

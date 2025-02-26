@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../Scripts/ejercicio3.js"></script>
+    <title>Ejercicio carquiñón</title>
+
+    <style>
+      input[type="number"]{
+        width: 60px;
+      }
+
+      body
+      {
+          font-family: Segoe UI;
+      }
+      h1
+      {
+        width: 730px;
+        margin-left: 100px;
+        font-family: Segoe UI;
+        font-style: italic;
+        border-bottom: 3px solid #063752;
+      }
+      h2
+      {
+        margin-left: 100px;
+        font-family: Segoe UI;
+      }
+      fieldset
+      {
+        background-color: #E3EEF4; 
+        margin-left: 100px; 
+        width: 700px;
+      }
+      #botones
+      {
+        text-align: center;
+        margin-left: 100px;
+        width: 730px;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <header>
+      <h1>Ejercicio carquiñón</h1>
+    </header>
+
+    <form action="" method="GET">
+    
+      <fieldset id="formDatosLista">
+
+        <legend>¿De cuántos elementos va a ser nuestra lista?</legend>
+        <p>
+          <label for="numElementos">Número de elementos de la lista:</label>
+          <input type="number" name="numElementos" id="numElementos" />
+        </p>
+      </fieldset>
+
+      <p id="botones">
+        <button type="button" onclick="crearInputs();">
+          Insertar valores
+        </button>
+      </p>
+
+    </form>
+
+  </body>
+</html>
